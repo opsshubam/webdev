@@ -2,9 +2,113 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: gilroy;
 }
 
 html, body{
     height: 100%;
     width: 100%;
 }
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#intro{
+    height: 40%;
+    width: 100%;
+    /* background-color: orange; */
+    padding: 50px;
+}
+
+#intro h1{
+    font-size: 90px;
+    line-height: 80px;
+    letter-spacing: -5px;
+}
+
+#place{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#place h3, #place h4{
+    font-size: 20px;
+    font-weight: 520;
+}
+
+#image{
+    height: 87%;
+    width: 100%;
+    background-image:url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-2000.webp);
+    background-size:cover;
+}
+
+#nav{
+    position: fixed;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    padding: 30px;
+}
+
+#nav h3{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 35px;
+    margin-left: 5px;
+}
+
+#about{
+    height: 45%;
+    width: 100%;
+    /* background-color: azure; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+#about h2{
+    /* background-color: red; */
+    width: 50%;
+    /* height: 70%; */
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -2px;
+
+}
+
+#about2{
+    width: 40%;
+    /* background-color: blue; */
+    height: 100%;
+    border-left: 2px solid black;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#about2 h3{
+    font-size: 35px;
+}
+
+#icon i{
+    background-color: black;
+    color: white;
+    padding: 7px;
+    font-size: 25px;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+
+
